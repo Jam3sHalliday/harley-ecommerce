@@ -1,0 +1,17 @@
+.products
+{
+    text-align: center;
+    background: #fff;
+}
+
+
+
+.products .products__title
+{
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    font-family: 'righteous', sans-serif;
+}

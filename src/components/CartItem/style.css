@@ -1,0 +1,32 @@
+tr td
+{
+    padding: 0;
+}
+.quantity__button
+{
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 24px ;
+    height: 24px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.quantity__button:hover
+{
+    background-color: #f48a22;
+    color: #fff;
+}
+
+.quantity__button:focus
+{
+    outline: none;
+}
+
+@media only screen and (max-width: 770px )
+{
+    tr .table__quantity button
+    {
+        display: none;
+    }
+}

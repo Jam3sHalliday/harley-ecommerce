@@ -1,0 +1,96 @@
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    
+    background-color: #000;
+}
+
+section .content
+{
+    text-align: center; 
+}
+
+section .content h2
+{
+    font-size: 16vw;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-weight: 900;
+    line-height: 1em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+}
+
+section:nth-child(1) .content h2
+{
+    background-image: url(https://images.unsplash.com/photo-1481567758055-3e8a6e89ca58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+
+section:nth-child(2) .content h2
+{
+    background-image: url(https://images.unsplash.com/photo-1558981033-0f0309284409?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60);
+    background-size: cover;
+}
+
+section:nth-child(3) .content h2
+{
+    background-image: url(https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=60);
+    background-size: cover;
+}
+section:nth-child(4) .content h2
+{
+    background-image: url(https://images.unsplash.com/photo-1558981001-5864b3250a69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60);
+    background-size: cover;
+}
+
+section .content p
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.access__part .btn__access
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.access__part  .btn__access .btn__style
+{
+    margin-bottom: 100px;
+    padding: 12px 20px; 
+    border: 2px solid #fff;
+    border-radius: 12px;
+    /* background-color: transparent; */
+    transition: all 0.5s;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.access__part .access__title
+{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.access__part .access__title h3
+{
+    color: #fff;
+    margin: 0;
+}

@@ -1,0 +1,52 @@
+.row .card img
+{
+    width: 340px;
+    height: 240px;
+    margin: auto;
+    transition: all 0.5s;
+    padding: 16px 10px;
+}
+
+.row .card img:hover
+{
+    transform: scale(1.1, 1.1);
+}
+
+.row .card-body:hover 
+{
+    color: #FF6600;
+}
+
+
+.row .card-body
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.5s;
+}
+
+.row .card
+{
+    padding: 0;
+    border: 2px solid #fff;
+}
+
+.row .card .details
+{
+    border: none;
+    background-color: #fff;
+}
+
+.thumbnail__image
+{
+    width: 340px;
+    height: 240px;
+}
+
+.btnAddToCart
+{
+    text-align: center;
+    width: 100%;
+}

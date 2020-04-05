@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+
+import {
+    BrowserRouter as Router,
+    Route,
+    Switch,
+    } from "react-router-dom";
+
+import Home from './components/Home';
+import About from './components/About';
+import Products from './components/Products';
+import CartContainer from './redux/containers/CartContainer'; 
+import LoginForm from './components/LoginForm';
+import SignupForm from './components/SignupForm';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    render() {
+        return (
+            <>
+                <Router>
+                    <Switch>
+                        <Route path="/" component= { Home } exact />
+                        <Route path="/about" component= { About } />
+                        <Route path="/products" component= { Products } exact />
+                        <Route path="/cart" component= { CartContainer } exact />
+                        <Route path="/login" component= { LoginForm } />
+                        <Route path="/signup" component = { SignupForm } />
+                    </Switch>
+                </Router>
+            </>
+        );
+    }
 }
 
 export default App;

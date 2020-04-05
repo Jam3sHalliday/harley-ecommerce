@@ -1,0 +1,13 @@
+.cart
+{
+    background-color: #fff;
+    width: 100vw;
+}
+
+@media only screen and ( max-width: 773px)
+{
+    .cart .container .table thead tr th
+    {
+        font-size: 14px;
+    }
+}

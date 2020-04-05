@@ -1,0 +1,23 @@
+.signupForm
+{
+    background: #000;
+}
+
+@media only screen and ( max-width: 773px)
+{
+    .form .form__support .form_notice .form__notice--title
+    {
+        font-size: 16px;
+    }
+
+    .form .form__title h2
+    {
+        font-size: 36px;
+    }
+    .form .form__button button
+    {
+        font-size: 14px;
+        width: 200px;
+        padding: 8px 16px;
+    }
+}

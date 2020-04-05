@@ -1,0 +1,11 @@
+.modalForm
+{
+    height: 30vh;
+    padding: 0;
+}
+
+.modalForm .input-group
+{
+    margin: 12px 0;
+}
+

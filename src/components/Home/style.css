@@ -1,0 +1,106 @@
+.home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    text-align: center;
+
+    /* background-image: url('https://images.unsplash.com/photo-1508147532797-432d81b6808f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80'); */
+    background-image: url('https://images.unsplash.com/photo-1558981001-5864b3250a69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80');
+    height: 88vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.home .home__content .home__title
+{
+    font-size: 48px;
+    padding-bottom: 30px;
+    color: #f8f9fa;
+    letter-spacing: 8px;
+    font-weight: 800;
+
+    font-family: "Righteous", sans-serif;
+}
+
+.home .home__content .home__title .blk
+{
+    color: #000;
+}
+
+
+.home .home__content .home__button
+{
+    margin-right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .home__content .home__button .home__button--access
+{
+    padding: 12px 20px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    transition: all 0.5s;
+    background-color: transparent;
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+
+    margin-right: 14px;
+}
+
+.home .home__content .home__button .home__button--access:hover
+{
+    background-color: rgba(195, 192, 183, 0.25);
+    
+    color: #fff;
+    border: 2px solid #999;
+}
+
+@media only screen and (max-width: 674px) {
+    .home .home__content .home__title
+    {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 542px) {
+    .home .home__content .home__title
+    {
+        font-size: 28px;
+    }
+
+    .home .home__content .home__button .home__button--access
+    {
+        padding: 4px 8px;
+    }
+}
+
+@media only screen and (max-width: 462px) {
+    .home .home__content .home__title
+    {
+        font-size: 20px;
+    }
+
+    .home .home__content .home__button .home__button--access
+    {
+        padding: 4px 8px;
+    }
+}
+
+@media only screen and ( max-width: 378px ) {
+    .home .home__content .home__button
+    {
+        display: block;
+    }
+    .home .home__content .home__button .react-reveal
+    {
+        margin-bottom: 14px;
+    }
+} 
