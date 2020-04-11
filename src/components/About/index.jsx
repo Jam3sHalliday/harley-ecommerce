@@ -11,7 +11,7 @@ const About = () => {
     return (
         <>
         <Header />
-            <section>
+            <section style = {{ display: 'block'}}>
                 <section>
                     <div className="content">
                     <Fade bottom delay = {400}>
